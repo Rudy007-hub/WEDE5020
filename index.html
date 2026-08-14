@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bright Beginnings Learning Foundation</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      line-height:1.6;
+      background:#f4f6f8;
+      color:#333;
+    }
+
+    header{
+      background:#0d47a1;
+      color:white;
+      padding:1rem 2rem;
+      position:sticky;
+      top:0;
+      z-index:1000;
+    }
+
+    nav{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+
+    nav h1{
+      font-size:1.4rem;
+    }
+
+    nav ul{
+      display:flex;
+      list-style:none;
+      flex-wrap:wrap;
+    }
+
+    nav ul li{
+      margin-left:1rem;
+    }
+
+    nav ul li a{
+      color:white;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    nav ul li a:hover{
+      color:#ffd54f;
+    }
+
+    .hero{
+      background:linear-gradient(rgba(13,71,161,0.8), rgba(13,71,161,0.8)),
+      url("https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80") center/cover no-repeat;
+      color:white;
+      text-align:center;
+      padding:5rem 1rem;
+    }
+
+    .hero h2{
+      font-size:2.5rem;
+      margin-bottom:1rem;
+    }
+
+    .hero p{
+      max-width:700px;
+      margin:0 auto 2rem;
+      font-size:1.1rem;
+    }
+
+    .btn{
+      display:inline-block;
+      background:#ffb300;
+      color:#222;
+      padding:0.8rem 1.5rem;
+      margin:0.5rem;
+      border-radius:5px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+
+    .btn:hover{
+      background:#ffd54f;
+    }
+
+    section{
+      padding:4rem 2rem;
+      max-width:1100px;
+      margin:auto;
+    }
+
+    section h2{
+      color:#0d47a1;
+      margin-bottom:1rem;
+      font-size:2rem;
+      text-align:center;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:1.5rem;
+      margin-top:2rem;
+    }
+
+    .card{
+      background:white;
+      padding:1.5rem;
+      border-radius:10px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .card h3{
+      color:#0d47a1;
+      margin-bottom:0.5rem;
+    }
+
+    .form-container{
+      background:white;
+      padding:2rem;
+      border-radius:10px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.1);
+      max-width:700px;
+      margin:auto;
+    }
+
+    form input,
+    form textarea,
+    form select{
+      width:100%;
+      padding:0.8rem;
+      margin-bottom:1rem;
+      border:1px solid #ccc;
+      border-radius:5px;
+      font-size:1rem;
+    }
+
+    form button{
+      background:#0d47a1;
+      color:white;
+      padding:0.9rem 1.5rem;
+      border:none;
+      border-radius:5px;
+      cursor:pointer;
+      font-size:1rem;
+    }
+
+    form button:hover{
+      background:#1565c0;
+    }
+
+    .donate{
+      background:#fff8e1;
+      border-left:6px solid #ffb300;
+      padding:2rem;
+      border-radius:10px;
+    }
+
+    iframe{
+      width:100%;
+      border:none;
+      border-radius:10px;
+      height:300px;
+      margin-top:1rem;
+    }
+
+    footer{
+      background:#0d47a1;
+      color:white;
+      text-align:center;
+      padding:2rem 1rem;
+      margin-top:2rem;
+    }
+
+    @media(max-width:768px){
+      .hero h2{
+        font-size:2rem;
+      }
+
+      nav{
+        flex-direction:column;
+        align-items:flex-start;
+      }
+
+      nav ul{
+        margin-top:1rem;
+      }
+
+      nav ul li{
+        margin:0.5rem 1rem 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>Bright Beginnings Learning Foundation</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#programmes">Programmes</a></li>
+      <li><a href="#volunteer">Volunteer</a></li>
+      <li><a href="#enrol">Enrol</a></li>
+      <li><a href="#donate">Donate</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h2>Every Child Deserves the Chance to Succeed</h2>
+  <p>Free after-school tutoring and homework support for Grade 4-12 learners in Lebowakgomo and surrounding communities.</p>
+  <a href="#enrol" class="btn">Enrol a Learner</a>
+  <a href="#volunteer" class="btn">Become a Volunteer</a>
+  <a href="#donate" class="btn">Support Us</a>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Bright Beginnings Learning Foundation was founded in 2022 by local teachers and community volunteers who were concerned about learners falling behind in their studies due to overcrowded classrooms, limited resources, and lack of academic support at home.</p>
+  <p>What began as informal study sessions in a community hall has grown into a structured tutoring programme that partners with local schools to identify and support learners who need help the most.</p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Mission</h3>
+      <p>Provide free, accessible, and consistent tutoring and homework support in a safe and encouraging environment.</p>
+    </div>
+    <div class="card">
+      <h3>Vision</h3>
+      <p>A community where every child, regardless of financial circumstances, has access to the academic support needed to succeed.</p>
+    </div>
+    <div class="card">
+      <h3>Community</h3>
+      <p>Serving learners, parents, guardians, and volunteer tutors across Lebowakgomo and surrounding areas.</p>
+    </div>
+  </div>
+</section>
+
+<section id="programmes">
+  <h2>Our Programmes</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Primary School Support</h3>
+      <p>Homework assistance and tutoring for Grades 4-7 in Mathematics, English, Natural Sciences, and other core subjects.</p>
+    </div>
+    <div class="card">
+      <h3>High School Tutoring</h3>
+      <p>Focused support for Grades 8-12 including exam preparation, study skills, and subject-specific revision sessions.</p>
+    </div>
+    <div class="card">
+      <h3>Study Skills</h3>
+      <p>Time management, note-taking, reading strategies, and confidence-building workshops for learners.</p>
+    </div>
+  </div>
+
+  <Box background="surface" border={1} radius="3xl" gap={2} padding={4} margin={{ top: 4 }}>
+    <Text weight="semibold" value="Session Schedule (Example)"/>
+    <Table columnSizing="equal" rowDivider={1}><Table.Row header><Table.Cell><Text weight="semibold" value="Day"/></Table.Cell><Table.Cell><Text weight="semibold" value="Time"/></Table.Cell></Table.Row><Table.Row><Table.Cell>Monday - Thursday</Table.Cell><Table.Cell>15:00 - 17:00</Table.Cell></Table.Row><Table.Row><Table.Cell>Friday</Table.Cell><Table.Cell>15:00 - 16:30</Table.Cell></Table.Row><Table.Row><Table.Cell>Saturday Revision</Table.Cell><Table.Cell>09:00 - 12:00</Table.Cell></Table.Row></Table>
+  </Box>
+</section>
+
+<section id="volunteer">
+  <h2>Become a Volunteer Tutor</h2>
+  <p>We welcome retired teachers, university students, and community members who are passionate about helping local learners thrive.</p>
+
+  <div class="form-container">
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="tel" placeholder="Phone Number" pattern="[0-9+\s-]{10,}" required>
+      <select required>
+        <option value="">Select your role</option>
+        <option>University Student</option>
+        <option>Retired Teacher</option>
+        <option>Community Volunteer</option>
+        <option>Other</option>
+      </select>
+      <textarea rows="4" placeholder="Tell us about your skills or subjects you can help with"></textarea>
+      <button type="submit">Submit Volunteer Application</button>
+    </form>
+  </div>
+</section>
+
+<section id="enrol">
+  <h2>Enrol a Learner</h2>
+  <p>Parents and guardians can use the form below to request enrolment or ask questions about the programme.</p>
+
+  <div class="form-container">
+    <form>
+      <input type="text" placeholder="Parent / Guardian Name" required>
+      <input type="text" placeholder="Learner Name" required>
+      <select required>
+        <option value="">Select Grade</option>
+        <option>Grade 4</option>
+        <option>Grade 5</option>
+        <option>Grade 6</option>
+        <option>Grade 7</option>
+        <option>Grade 8</option>
+        <option>Grade 9</option>
+        <option>Grade 10</option>
+        <option>Grade 11</option>
+        <option>Grade 12</option>
+      </select>
+      <input type="email" placeholder="Email Address" required>
+      <input type="tel" placeholder="Phone Number" pattern="[0-9+\s-]{10,}" required>
+      <textarea rows="4" placeholder="Tell us which subjects the learner needs help with"></textarea>
+      <button type="submit">Submit Enrolment Request</button>
+    </form>
+  </div>
+</section>
+
+<section id="donate">
+  <h2>Support Our Work</h2>
+
+  <div class="donate">
+    <p>Your support helps us provide learning materials, tutoring resources, and a safe environment for learners.</p>
+    <br>
+    <p><strong>Bank:</strong> Example Bank</p>
+    <p><strong>Account Name:</strong> Bright Beginnings Learning Foundation</p>
+    <p><strong>Account Number:</strong> 1234567890</p>
+    <p><strong>Branch Code:</strong> 000000</p>
+    <br>
+    <p>We also accept donations of textbooks, stationery, calculators, and other educational materials.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Phone</h3>
+      <p>+27 72 123 4567</p>
+    </div>
+    <div class="card">
+      <h3>Email</h3>
+      <p>info@brightbeginnings.org.za</p>
+    </div>
+    <div class="card">
+      <h3>Location</h3>
+      <p>Lebowakgomo, Limpopo, South Africa</p>
+    </div>
+  </div>
+
+  <iframe
+    src="https://www.google.com/maps?q=Lebowakgomo,Limpopo,South%20Africa&output=embed"
+    allowfullscreen
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</section>
+
+<footer>
+  <p>&copy; 2026 Bright Beginnings Learning Foundation. All rights reserved.</p>
+  <p>Helping learners build brighter futures through education.</p>
+</footer>
+
+</body>
+</html>
