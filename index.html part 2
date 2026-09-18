@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Bright Beginnings Learning Foundation provides free after-school tutoring and homework support for learners in Lebowakgomo.">
+
+    <meta name="keywords"
+          content="Bright Beginnings, tutoring, Lebowakgomo, education, learners, volunteers">
+
+    <meta name="author"
+          content="Bright Beginnings Learning Foundation">
+
+    <title>Bright Beginnings Learning Foundation</title>
+
+    <!-- External CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="site-header">
+
+        <div class="container header-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">BB</span>
+
+                <span class="logo-text">
+                    <strong>Bright Beginnings</strong>
+                    <small>Learning Foundation</small>
+                </span>
+            </a>
+
+            <nav class="main-navigation" aria-label="Main Navigation">
+
+                <ul class="nav-list">
+
+                    <li>
+                        <a href="#home" class="nav-link active">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="nav-link">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#programmes" class="nav-link">
+                            Programmes
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#volunteer" class="nav-link">
+                            Volunteer
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#enrol" class="nav-link">
+                            Enrol
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#donate" class="nav-link">
+                            Donate
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="nav-link">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section id="home" class="hero-section">
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <span class="hero-label">
+                        EDUCATION • COMMUNITY • OPPORTUNITY
+                    </span>
+
+                    <h1>
+                        Helping Every Learner
+                        <span>Build a Brighter Future</span>
+                    </h1>
+
+                    <p>
+                        Bright Beginnings Learning Foundation provides
+                        free, accessible and consistent after-school
+                        tutoring and homework support to learners in
+                        Lebowakgomo and surrounding communities.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#enrol" class="btn btn-primary">
+                            Enrol a Learner
+                        </a>
+
+                        <a href="#volunteer" class="btn btn-secondary">
+                            Become a Volunteer
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-image">
+
+                    <picture>
+
+                        <source
+                            media="(max-width: 600px)"
+                            srcset="images/hero.jpg">
+
+                        <source
+                            media="(max-width: 1024px)"
+                            srcset="images/hero.jpg">
+
+                        <img
+                            src="images/hero.jpg"
+                            srcset="
+                                images/hero.jpg 600w,
+                                images/hero.jpg 1000w,
+                                images/hero.jpg 1400w"
+                            sizes="
+                                (max-width: 600px) 100vw,
+                                (max-width: 1024px) 50vw,
+                                50vw"
+                            alt="Learners studying together"
+                            loading="eager">
+
+                    </picture>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= INTRODUCTION ================= -->
+
+        <section class="intro-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        WELCOME
+                    </span>
+
+                    <h2>
+                        Creating Brighter Beginnings
+                    </h2>
+
+                    <p>
+                        We believe that every learner deserves access
+                        to the support, resources and encouragement
+                        needed to succeed.
+                    </p>
+
+                </div>
+
+                <div class="feature-grid">
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            📚
+                        </div>
+
+                        <h3>
+                            Free Tutoring
+                        </h3>
+
+                        <p>
+                            Learners receive free after-school academic
+                            support from dedicated tutors.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            🎓
+                        </div>
+
+                        <h3>
+                            Grades 4–12
+                        </h3>
+
+                        <p>
+                            Our programmes support both primary and
+                            high school learners.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            🤝
+                        </div>
+
+                        <h3>
+                            Community Support
+                        </h3>
+
+                        <p>
+                            We work together with parents, volunteers
+                            and the local community.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section id="about" class="about-section">
+
+            <div class="container about-grid">
+
+                <div class="about-image">
+
+                    <picture>
+
+                        <img
+                            src="images/community.jpg"
+                            srcset="
+                                images/community.jpg 600w,
+                                images/community.jpg 1000w,
+                                images/community.jpg 1400w"
+                            sizes="
+                                (max-width: 600px) 100vw,
+                                (max-width: 1024px) 50vw,
+                                50vw"
+                            alt="Community education programme"
+                            loading="lazy">
+
+                    </picture>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <span class="section-label">
+                        ABOUT US
+                    </span>
+
+                    <h2>
+                        Supporting Learners Since 2022
+                    </h2>
+
+                    <p>
+                        Bright Beginnings Learning Foundation was
+                        founded in 2022 by a small group of local
+                        teachers and community volunteers in
+                        Lebowakgomo.
+                    </p>
+
+                    <p>
+                        The foundation was created because of concerns
+                        about learners falling behind due to
+                        overcrowded classrooms, limited academic
+                        support at home and a shortage of educational
+                        resources.
+                    </p>
+
+                    <p>
+                        What started as informal after-school study
+                        sessions in a community hall has grown into
+                        a structured tutoring programme supporting
+                        learners across the community.
+                    </p>
+
+                    <div class="mission-box">
+
+                        <h3>
+                            Our Mission
+                        </h3>
+
+                        <p>
+                            To provide free, accessible and consistent
+                            after-school tutoring and homework support
+                            in a safe and supportive environment.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= MISSION / VISION ================= -->
+
+        <section class="mission-section">
+
+            <div class="container">
+
+                <div class="cards-grid">
+
+                    <article class="info-card">
+
+                        <span class="card-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Our Vision
+                        </h3>
+
+                        <p>
+                            A community where every child, regardless
+                            of their household's financial
+                            circumstances, has access to the academic
+                            support and encouragement needed to
+                            succeed.
+                        </p>
+
+                    </article>
+
+
+                    <article class="info-card">
+
+                        <span class="card-number">
+                            02
+                        </span>
+
+                        <h3>
+                            Our Community
+                        </h3>
+
+                        <p>
+                            We serve Grade 4–12 learners, parents,
+                            guardians, volunteer tutors and community
+                            members in Lebowakgomo and surrounding
+                            areas.
+                        </p>
+
+                    </article>
+
+
+                    <article class="info-card">
+
+                        <span class="card-number">
+                            03
+                        </span>
+
+                        <h3>
+                            Our Goal
+                        </h3>
+
+                        <p>
+                            To close educational gaps, build learner
+                            confidence and create a culture where
+                            education is valued and supported.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROGRAMMES ================= -->
+
+        <section id="programmes" class="programmes-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        WHAT WE OFFER
+                    </span>
+
+                    <h2>
+                        Our Programmes
+                    </h2>
+
+                    <p>
+                        Our programmes are designed to help learners
+                        understand their schoolwork, improve their
+                        academic performance and develop confidence.
+                    </p>
+
+                </div>
+
+
+                <div class="programme-grid">
+
+                    <article class="programme-card">
+
+                        <img
+                            src="images/tutoring.jpg"
+                            alt="Primary school tutoring"
+                            loading="lazy">
+
+                        <div class="programme-content">
+
+                            <span class="programme-number">
+                                01
+                            </span>
+
+                            <h3>
+                                Primary School Support
+                            </h3>
+
+                            <p>
+                                Academic support for Grades 4–7
+                                learners, including homework assistance,
+                                revision and subject support.
+                            </p>
+
+                            <ul>
+                                <li>Homework assistance</li>
+                                <li>Reading support</li>
+                                <li>Mathematics support</li>
+                                <li>Exam preparation</li>
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="programme-card">
+
+                        <img
+                            src="images/books.jpg"
+                            alt="Books and study resources"
+                            loading="lazy">
+
+                        <div class="programme-content">
+
+                            <span class="programme-number">
+                                02
+                            </span>
+
+                            <h3>
+                                High School Tutoring
+                            </h3>
+
+                            <p>
+                                Focused academic support for Grades
+                                8–12 learners preparing for tests and
+                                examinations.
+                            </p>
+
+                            <ul>
+                                <li>Subject revision</li>
+                                <li>Homework support</li>
+                                <li>Exam preparation</li>
+                                <li>Study planning</li>
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="programme-card">
+
+                        <div class="programme-icon">
+                            📝
+                        </div>
+
+                        <div class="programme-content">
+
+                            <span class="programme-number">
+                                03
+                            </span>
+
+                            <h3>
+                                Study Skills
+                            </h3>
+
+                            <p>
+                                Learners develop practical skills that
+                                can help them become more confident and
+                                independent students.
+                            </p>
+
+                            <ul>
+                                <li>Time management</li>
+                                <li>Note-taking</li>
+                                <li>Study techniques</li>
+                                <li>Goal setting</li>
+                            </ul>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <!-- Schedule -->
+
+                <div class="schedule-container">
+
+                    <h3>
+                        Example Session Schedule
+                    </h3>
+
+                    <div class="schedule-grid">
+
+                        <div class="schedule-item">
+                            <strong>
+                                Monday – Thursday
+                            </strong>
+
+                            <span>
+                                15:00 – 17:00
+                            </span>
+                        </div>
+
+                        <div class="schedule-item">
+                            <strong>
+                                Friday
+                            </strong>
+
+                            <span>
+                                15:00 – 16:30
+                            </span>
+                        </div>
+
+                        <div class="schedule-item">
+                            <strong>
+                                Saturday Revision
+                            </strong>
+
+                            <span>
+                                09:00 – 12:00
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= VOLUNTEER ================= -->
+
+        <section id="volunteer" class="volunteer-section">
+
+            <div class="container volunteer-grid">
+
+                <div class="volunteer-content">
+
+                    <span class="section-label">
+                        GET INVOLVED
+                    </span>
+
+                    <h2>
+                        Become a Volunteer Tutor
+                    </h2>
+
+                    <p>
+                        Your knowledge and time can make a meaningful
+                        difference in the life of a learner.
+                    </p>
+
+                    <p>
+                        We welcome retired teachers, university
+                        students and community members who are
+                        passionate about education.
+                    </p>
+
+                    <div class="volunteer-list">
+
+                        <div>
+                            <strong>
+                                ✓ Flexible commitment
+                            </strong>
+
+                            <p>
+                                Volunteer according to your available
+                                time.
+                            </p>
+                        </div>
+
+                        <div>
+                            <strong>
+                                ✓ Share your knowledge
+                            </strong>
+
+                            <p>
+                                Help learners understand difficult
+                                concepts.
+                            </p>
+                        </div>
+
+                        <div>
+                            <strong>
+                                ✓ Give back
+                            </strong>
+
+                            <p>
+                                Help strengthen education in the
+                                Lebowakgomo community.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-card">
+
+                    <h3>
+                        Volunteer Sign-Up
+                    </h3>
+
+                    <p>
+                        Complete the form and our team will contact you.
+                    </p>
+
+                    <form id="volunteerForm">
+
+                        <div class="form-group">
+
+                            <label for="volunteerName">
+                                Full Name *
+                            </label>
+
+                            <input
+                                type="text"
+                                id="volunteerName"
+                                name="volunteerName"
+                                placeholder="Enter your full name"
