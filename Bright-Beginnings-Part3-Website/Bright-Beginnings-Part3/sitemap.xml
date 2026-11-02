@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://YOUR-NETLIFY-SITE.netlify.app/</loc><priority>1.0</priority></url>
+  <url><loc>https://YOUR-NETLIFY-SITE.netlify.app/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-NETLIFY-SITE.netlify.app/programmes.html</loc><priority>0.9</priority></url>
+  <url><loc>https://YOUR-NETLIFY-SITE.netlify.app/volunteer.html</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-NETLIFY-SITE.netlify.app/enrolment.html</loc><priority>0.8</priority></url>
+  <url><loc>https://YOUR-NETLIFY-SITE.netlify.app/enquiry.html</loc><priority>0.7</priority></url>
+  <url><loc>https://YOUR-NETLIFY-SITE.netlify.app/donate.html</loc><priority>0.7</priority></url>
+  <url><loc>https://YOUR-NETLIFY-SITE.netlify.app/contact.html</loc><priority>0.7</priority></url>
+</urlset>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ask about tutoring programmes, volunteer opportunities, sponsorship and support.">
+  <meta name="keywords" content="Bright Beginnings, tutoring, Lebowakgomo, education, learners, volunteers">
+  <meta name="author" content="Bright Beginnings Learning Foundation">
+  <meta name="robots" content="index, follow">
+  <title>Enquiries | Bright Beginnings Learning Foundation</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="page-enquiry">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo" aria-label="Bright Beginnings home">
+        <span class="logo-icon">BB</span>
+        <span class="logo-text"><strong>Bright Beginnings</strong><small>Learning Foundation</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">☰ <span class="sr-only">Open menu</span></button>
+      <nav class="main-navigation" id="primary-nav" aria-label="Main navigation">
+        <ul class="nav-list"><li><a href="index.html" class="nav-link">Home</a></li>
+<li><a href="about.html" class="nav-link">About Us</a></li>
+<li><a href="programmes.html" class="nav-link">Programmes</a></li>
+<li><a href="volunteer.html" class="nav-link">Volunteer</a></li>
+<li><a href="enrolment.html" class="nav-link">Enrol</a></li>
+<li><a href="enquiry.html" class="nav-link active" aria-current="page">Enquiries</a></li>
+<li><a href="donate.html" class="nav-link">Donate</a></li>
+<li><a href="contact.html" class="nav-link">Contact</a></li></ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+
+    <section class="page-banner"><div class="container"><span class="section-label">WE ARE HERE TO HELP</span><h1>Make an Enquiry</h1><p>Ask us about programmes, volunteering or sponsorship.</p></div></section>
+    <section class="section"><div class="container two-column">
+      <div><h2>What would you like to know?</h2><p>Use this form to ask about the services and opportunities described on this website. Programme availability, schedules and any costs or sponsorship arrangements must be confirmed by the foundation.</p>
+        <div class="notice"><strong>Before you submit:</strong><p>Please do not include sensitive personal information or confidential learner records in this form.</p></div>
+      </div>
+      <div class="form-card"><h2>Enquiry Form</h2>
+        <form name="enquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="enquiryForm">
+          <input type="hidden" name="form-name" value="enquiry"><p class="hidden-field"><label>Do not fill this in: <input name="bot-field"></label></p>
+          <div class="form-group"><label for="enquiryName">Full name *</label><input id="enquiryName" name="fullName" type="text" required minlength="2"></div>
+          <div class="form-group"><label for="enquiryEmail">Email address *</label><input id="enquiryEmail" name="email" type="email" required></div>
+          <div class="form-group"><label for="enquiryPhone">Phone number</label><input id="enquiryPhone" name="phone" type="tel" pattern="[0-9+() -]{7,20}"></div>
+          <div class="form-group"><label for="enquiryType">Enquiry type *</label><select id="enquiryType" name="enquiryType" required><option value="">Choose an option</option><option>Programmes and tutoring</option><option>Enrolment</option><option>Volunteering</option><option>Sponsorship</option><option>Donations</option><option>Other</option></select></div>
+          <div class="form-group"><label for="enquiryGrade">Learner grade (if relevant)</label><select id="enquiryGrade" name="learnerGrade"><option value="">Not applicable</option><option>Grade 4–7</option><option>Grade 8–12</option></select></div>
+          <div class="form-group"><label for="enquiryMessage">Your question *</label><textarea id="enquiryMessage" name="message" rows="5" required minlength="10"></textarea></div>
+          <button class="btn btn-primary form-button" type="submit">Submit enquiry</button><p class="form-feedback" aria-live="polite"></p>
+        </form>
+      </div>
+    </div></section>
+    
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a href="index.html" class="footer-logo">Bright Beginnings</a>
+        <p>Supporting learners through accessible academic support and community involvement in Lebowakgomo.</p>
+      </div>
+      <div><h2>Explore</h2><ul class="footer-links">
+        <li><a href="about.html">About us</a></li><li><a href="programmes.html">Programmes</a></li>
+        <li><a href="volunteer.html">Volunteer</a></li><li><a href="enrolment.html">Enrolment</a></li>
+      </ul></div>
+      <div><h2>Get in touch</h2><ul class="footer-links">
+        <li><a href="enquiry.html">Make an enquiry</a></li><li><a href="donate.html">Support us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; <span class="current-year"></span> Bright Beginnings Learning Foundation. Website project.</p></div>
+  </footer>
+</body>
+</html>
